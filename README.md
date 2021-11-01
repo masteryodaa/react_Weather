@@ -1,4 +1,4 @@
 # This is a Real-time Weather App made in ReactJs.
 
-to clone in your system, run
+to run in your system, clone it and run
 ## npm start
