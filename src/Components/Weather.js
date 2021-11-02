@@ -50,10 +50,6 @@ function Weather(props) {
         <div className="weather">
             {loading ?
 
-                // <div class="d-flex align-items-center">
-                //     <strong>Loading...</strong>
-                //     <div class="spinner-border ms-auto" role="status" aria-hidden="true"></div>
-                // </div>
                 <MyLaoder/>
                 :
                 <div className='container my-5 d-flex justify-content-center'>
@@ -62,7 +58,7 @@ function Weather(props) {
 
                         <Temperature location={location} current={current} condition={condition} />
 
-                        <AQI aqi={aqi.pm2_5} />
+                        <AQI aqi={aqi.pm2_5} time={location.localtime} wind={current.wind_kph} humidity={current.humidity}/>
 
                     </div>
 

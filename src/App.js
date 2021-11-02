@@ -13,7 +13,7 @@ import Footer from "./Components/Footer";
 function App() {
 
   
-  const [value, setValue] = useState(localStorage.getItem("city") ? localStorage.getItem("city") : "Patna");
+  const [value, setValue] = useState(localStorage.getItem("city") ? localStorage.getItem("city") : "");
 
   const [progress, setProgress] = useState(0);
 
