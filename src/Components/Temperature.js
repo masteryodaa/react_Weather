@@ -10,7 +10,7 @@ function Temperature(props) {
 
 
             <div className="container col temp_icon d-flex justify-content-md-end align-items-center">
-                <img className='p-2' height='100' width='100' src={props.condition.icon} alt="weather icon" />
+                <img className='' height='80' width='80' src={props.condition.icon} alt="weather icon" style={{padding:'5px'}}/>
 
                 <div className="temp">
                     <h1 className='text-end'>{props.current.temp_c}°C</h1>
