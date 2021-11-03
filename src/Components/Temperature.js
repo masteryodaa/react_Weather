@@ -3,7 +3,7 @@ import React from 'react'
 function Temperature(props) {
     return (
         <div className='container row'>
-            <div className="container location col d-flex flex-column align-items-center align-items-md-start">
+            <div className="container location col d-flex flex-column align-items-start">
                 <h1>{props.location.name}</h1>
                 <h4>{props.location.region + ', ' + props.location.country}</h4>
             </div>
